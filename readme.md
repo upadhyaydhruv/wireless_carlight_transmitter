@@ -11,4 +11,7 @@ I used an ESP32-WROOM SoC and an LTR329 Ambient Light sensor on a two layer PCB.
 I used I2C to develop a sensor driver for the ambient light sensor, and via WiFi, sent HTTP POST requests to validate my understanding of TCP and socket communication. The sensor driver operation and POST request transmission happened in parallel via FreeRTOS multithreading. The firmware was written in C via ESP-IDF.
 
 ## Schematic
+![alt text](schematic.png)
 
+## Images
+The PCB is currently under assembly, will be updated accordingly
